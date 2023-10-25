@@ -53,13 +53,17 @@ function closeMenu() {
   let menuBtn = document.querySelector(".menuBtn");
   let closeBtn = document.querySelector(".closeBtn");
   const x = document.getElementById('active');
-  
+
   x.style.display = 'none';
   menuBtn.style.display = 'block';
   closeBtn.style.display = 'none';
 
 }
 
+
+// document.getElementById("active").onclick = function () {
+//   document.getElementById("check").checked = false;
+// };
 
 
 // const toggleNavbar = () => {
