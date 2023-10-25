@@ -48,7 +48,7 @@
     </div>
 
 
-    <div class="nav-btns active">
+    <div class="nav-btns " id="active">
 
       <a class="home " href="#home">HOME</a>
       <a class="about" href="#about">ABOUT US</a>
@@ -57,13 +57,16 @@
       <a class="contact" href="#contact">CONTACT US</a>
 
       <button class="appoint appoint_mobile"><a href="#contact">BOOK APOINTMENT</a></button>
+      <!-- 
+      <span class="menuBtn" onclick="openMenu()">&#9776</span>
+      <span class="closeBtn" onclick="closeMenu()">&#9746</span> -->
     </div>
 
 
 
-    <i class="fa-solid fa-bars menu_btn" id="menu_ashu"></i>
+    <i class="fa-solid fa-bars menuBtn" id="menu_ashu" onclick="openMenu()"></i>
 
-    <i class="fa-solid fa-xmark menu_close" id="nav-close"></i>
+    <i class="fa-solid fa-xmark closeBtn" id="nav-close" onclick="closeMenu()"></i>
 
   </div>
 
@@ -613,7 +616,7 @@
 
   </footer> -->
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
   <!-- fontawesome ki -->
   <script src="https://kit.fontawesome.com/415dea71ad.js" crossorigin="anonymous"></script>
   <!-- swiper js cdn  -->
